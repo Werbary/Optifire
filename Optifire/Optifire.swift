@@ -14,8 +14,8 @@ public class Optifire {
     
     var ref: FIRDatabaseReference!
     
-    init() {
-        ref = FIRDatabase.database().reference()
+    public static func takeOff(ref: FIRDatabaseReference!) {
+        Optifire.shared.ref = ref
     }
 }
 
