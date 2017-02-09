@@ -36,6 +36,6 @@ TODO: Add long description of the pod here.
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseDatabase/Frameworks"'
   }
 
-  s.dependency = 'FirebaseDatabase'
+ # s.dependency = 'FirebaseDatabase'
   s.frameworks = ['FirebaseDatabase']
 end
