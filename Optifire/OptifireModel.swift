@@ -31,7 +31,7 @@ open class OptifireModel: NSObject {
     }
     
     //MARK: STATIC
-    public static func collection() -> String! {
+    open static func collection() -> String! {
         return "unknown"
     }
     
