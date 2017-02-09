@@ -35,7 +35,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.subspec 'Firebase' do |ss|
-    ss.dependency 'Optifire'
     ss.dependency 'Firebase/Core', '~> 3.8'
     ss.dependency 'Firebase/Database', '~> 3.1'
     ss.xcconfig = {
