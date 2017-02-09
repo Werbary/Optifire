@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Optifire/**/*'
 
+  s.dependency 'Firebase/Core', '~> 3.8'
+  s.dependency 'Firebase/Database', '~> 3.1'
+  s.frameworks = ['FirebaseCore', 'FirebaseAnalytics', 'FirebaseDatabase', 'GoogleInterchangeUtilities', 'GoogleSymbolUtilities']
+
   s.xcconfig = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseCore/Frameworks/frameworks" "$(PODS_ROOT)/FirebaseAnalytics/Frameworks/frameworks" "$(PODS_ROOT)/FirebaseDatabase/Frameworks" "$(PODS_ROOT)/GoogleInterchangeUtilities/Frameworks/frameworks" "$(PODS_ROOT)/GoogleSymbolUtilities/Frameworks/frameworks"',
       'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/Firebase/Core/Sources'
   }
-
- # s.dependency = 'FirebaseDatabase'
-  s.frameworks = ['FirebaseDatabase']
 end
