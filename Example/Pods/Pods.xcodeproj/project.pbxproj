@@ -10,13 +10,14 @@
 		00B5AC6EE793938638337EC588C03CC2 /* Pods-Optifire_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB351655E3593373512235276724E76B /* Pods-Optifire_Tests-dummy.m */; };
 		268F6620B56DF4EFF0EDA8115B1D964C /* Pods-Optifire_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CD75B1E4255AB64EB5F0C6BFAD178 /* Pods-Optifire_Example-dummy.m */; };
 		4D013E3E9723F888DD63C2CB5A9762E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		74826BE21E4C9C6500B15F95 /* Optifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74826BE01E4C9C6500B15F95 /* Optifire.swift */; };
+		74826BE31E4C9C6500B15F95 /* OptifireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74826BE11E4C9C6500B15F95 /* OptifireModel.swift */; };
 		7896E7196460F91D40AA7267BD33A0D3 /* Pods-Optifire_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38FF29B67CB399BBE3AE99EDBF11C2A /* Pods-Optifire_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3C2FB7785993EDA1C01CF10D9E0065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8D9FCD5469A1EC5B913AE77B82FF6D7E /* Optifire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41A5E125A991D10218D89B49D58B395 /* Optifire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91ACBF25AF3A1A8D8C790B2AF36F6931 /* Optifire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2961844A138942CAF5C6DA65825CE /* Optifire-dummy.m */; };
 		ABEC1E8B5EDCB1FFD29B787413EA4905 /* Pods-Optifire_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D52AC6E30755B910C9606222017C27EA /* Pods-Optifire_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8305FABF61EA4B1C093C6B048EF6E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		C99FD1B8B204AB4372B8768BBAB14553 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		03834314B091A0401FF336D35742FE68 /* Pods-Optifire_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		190A523AD80F9C8C7D9C5D19CD48CB86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAEE398D73B0DFB458E512433325D6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B64A32E9AE7136FF96117A05C811F5 /* Pods-Optifire_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -41,6 +41,8 @@
 		4CE2D0A5BAB967C4B83C28385F7AF12D /* Pods-Optifire_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D008F3AE36CF86250F0D11E25C5CD1A /* Pods-Optifire_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Example-frameworks.sh"; sourceTree = "<group>"; };
 		600F62EB28E2E9DDF5CC73AA75838D36 /* Optifire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Optifire.modulemap; sourceTree = "<group>"; };
+		74826BE01E4C9C6500B15F95 /* Optifire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optifire.swift; sourceTree = "<group>"; };
+		74826BE11E4C9C6500B15F95 /* OptifireModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptifireModel.swift; sourceTree = "<group>"; };
 		791549448734F46E427058B48000597F /* Pods-Optifire_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Optifire_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81394475215BF4F4BBF90E04405A9B19 /* Pods-Optifire_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Optifire_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		923BD578A1519FA3FB90B7A0DBA8205B /* Pods_Optifire_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optifire_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,14 +104,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		33016564A00DD2934CCFDFD767098939 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3DA00D115A40D91EE5B5CADB6FB428B8 /* Pods-Optifire_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +125,8 @@
 		47A225EDD0CB0EAB5A8F7FFB2EAE4BEF /* Optifire */ = {
 			isa = PBXGroup;
 			children = (
-				33016564A00DD2934CCFDFD767098939 /* Classes */,
+				74826BE01E4C9C6500B15F95 /* Optifire.swift */,
+				74826BE11E4C9C6500B15F95 /* OptifireModel.swift */,
 			);
 			path = Optifire;
 			sourceTree = "<group>";
@@ -362,7 +357,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ACBF25AF3A1A8D8C790B2AF36F6931 /* Optifire-dummy.m in Sources */,
-				C99FD1B8B204AB4372B8768BBAB14553 /* ReplaceMe.swift in Sources */,
+				74826BE31E4C9C6500B15F95 /* OptifireModel.swift in Sources */,
+				74826BE21E4C9C6500B15F95 /* Optifire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -485,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
