@@ -14,19 +14,19 @@ public enum OptifireModelStatus {
     case changed
 }
 
-public class OptifireModel {
+public class OptifireModel: NSObject {
     var uid: String?
-    var lastUpdated: Date?
-    var createdAt: Date?
+    var lastUpdated: TimeInterval?
+    var createdAt: TimeInterval?
     
     //MARK: INIT
-    required init() {
+    required public override init() {
         self._firebaseContent = [:]
     }
-    required init (with id: String) {
-        self.uid = id
+    required public init (uid: String) {
+        self.uid = uid
     }
-    required init(with firebaseContent: [String: AnyObject]) {
+    required public init (firebaseContent: [String: AnyObject]) {
         self._firebaseContent = firebaseContent
     }
     
@@ -36,7 +36,7 @@ public class OptifireModel {
     }
     
     static func load(id: String!, success: OptifireSuccess?, failure: OptifireFailure?) {
-        let model = self.init(with: id)
+        let model = self.init(uid: id)
         model.load(success: success, failure: failure)
     }
 
@@ -44,7 +44,6 @@ public class OptifireModel {
     func collection() -> String! {
         return type(of: self).collection()
     }
-    
     func status() -> OptifireModelStatus {
         if let fbContent = self._firebaseContent {
             let valuesInModel = self.allValues()
@@ -58,6 +57,20 @@ public class OptifireModel {
             return .local
         }
     }
+    func dateLastUpdated() -> Date? {
+        if self.lastUpdated != nil {
+            return Date(timeIntervalSince1970: self.lastUpdated!)
+        } else {
+            return nil
+        }
+    }
+    func dateCreatedAt() -> Date? {
+        if self.createdAt != nil {
+            return Date(timeIntervalSince1970: self.createdAt!)
+        } else {
+            return nil
+        }
+    }
     
     //MARK: ACTIONS
     func save(success: OptifireSuccess?, failure: OptifireFailure?) {
@@ -69,6 +82,12 @@ public class OptifireModel {
         } else {
             key = collection.childByAutoId().key
             self.uid = key
+        }
+        
+        self.lastUpdated = Date().timeIntervalSince1970
+        
+        if self.createdAt == nil {
+            self.createdAt = self.lastUpdated
         }
         
         let newData = self.allValues()
@@ -87,11 +106,12 @@ public class OptifireModel {
             }
         })
     }
-    
     func load(success: OptifireSuccess?, failure: OptifireFailure?) {
         Optifire.shared.ref.child(collection()).child(self.uid!).observeSingleEvent(of: .value, with: { (snapshot) in
             let firebaseContent = snapshot.value as? [String : AnyObject] ?? [:]
             self._firebaseContent = firebaseContent
+    
+            self.fillValues(from: firebaseContent)
             
             if let success = success {
                 success(self)
@@ -105,7 +125,6 @@ public class OptifireModel {
     
     //MARK: PRIVATE
     private var _firebaseContent: [String: AnyObject]?
-
     func allValues() -> [String: AnyObject] {
         let type: Mirror = Mirror(reflecting:self)
 
@@ -118,8 +137,8 @@ public class OptifireModel {
             
             var valuesSuper = self.getValuesOfMirror(type: currentMirror)
             
-            for key in valuesSuper.keys {
-                resultDictionary[key] = valuesSuper[key]
+            for (key, value) in valuesSuper {
+                resultDictionary[key] = value
             }
         }
         
@@ -136,5 +155,12 @@ public class OptifireModel {
         }
         
         return resultDictionary
+    }
+    func fillValues(from dictionary: [String: AnyObject]) {
+        for (key, value) in dictionary {
+            if (self.responds(to: NSSelectorFromString(key))) {
+                self.setValue(value, forKey: key)
+            }
+        }
     }
 }
