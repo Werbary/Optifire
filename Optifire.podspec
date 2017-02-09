@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   s.frameworks = ['FirebaseCore', 'FirebaseAnalytics', 'FirebaseDatabase', 'GoogleInterchangeUtilities', 'GoogleSymbolUtilities']
 
   s.xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseCore/Frameworks/frameworks" "$(PODS_ROOT)/FirebaseAnalytics/Frameworks/frameworks" "$(PODS_ROOT)/FirebaseDatabase/Frameworks" "$(PODS_ROOT)/GoogleInterchangeUtilities/Frameworks/frameworks" "$(PODS_ROOT)/GoogleSymbolUtilities/Frameworks/frameworks"',
+      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseCore/Frameworks" "$(PODS_ROOT)/FirebaseAnalytics/Frameworks/frameworks" "$(PODS_ROOT)/FirebaseDatabase/Frameworks" "$(PODS_ROOT)/GoogleInterchangeUtilities/Frameworks/frameworks" "$(PODS_ROOT)/GoogleSymbolUtilities/Frameworks/frameworks"',
       'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/Firebase/Core/Sources'
   }
 end
