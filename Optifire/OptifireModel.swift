@@ -8,13 +8,13 @@
 
 import Foundation
 
-enum OptifireModelStatus {
+public enum OptifireModelStatus {
     case local
     case synced
     case changed
 }
 
-class OptifireModel {
+public class OptifireModel {
     var uid: String?
     var lastUpdated: Date?
     var createdAt: Date?

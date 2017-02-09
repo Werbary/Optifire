@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseDatabase
 
-class Optifire {
+public class Optifire {
     static let shared = Optifire()
     
     var ref: FIRDatabaseReference!
