@@ -14,7 +14,7 @@ public enum OptifireModelStatus {
     case changed
 }
 
-public class OptifireModel: NSObject {
+open class OptifireModel: NSObject {
     var uid: String?
     var lastUpdated: TimeInterval?
     var createdAt: TimeInterval?
