@@ -19,5 +19,5 @@ public class Optifire {
     }
 }
 
-typealias OptifireSuccess = (_ object: OptifireModel?) -> Void
-typealias OptifireFailure = (_ object: OptifireModel?, _ error: Error?) -> Void
+public typealias OptifireSuccess = (_ object: OptifireModel?) -> Void
+public typealias OptifireFailure = (_ object: OptifireModel?, _ error: Error?) -> Void

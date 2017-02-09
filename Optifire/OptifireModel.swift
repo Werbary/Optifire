@@ -31,20 +31,20 @@ public class OptifireModel: NSObject {
     }
     
     //MARK: STATIC
-    static func collection() -> String! {
+    public static func collection() -> String! {
         return "unknown"
     }
     
-    static func load(id: String!, success: OptifireSuccess?, failure: OptifireFailure?) {
+    public static func load(id: String!, success: OptifireSuccess?, failure: OptifireFailure?) {
         let model = self.init(uid: id)
         model.load(success: success, failure: failure)
     }
 
     //MARK: GETTERS
-    func collection() -> String! {
+    public func collection() -> String! {
         return type(of: self).collection()
     }
-    func status() -> OptifireModelStatus {
+    public func status() -> OptifireModelStatus {
         if let fbContent = self._firebaseContent {
             let valuesInModel = self.allValues()
             
@@ -57,14 +57,14 @@ public class OptifireModel: NSObject {
             return .local
         }
     }
-    func dateLastUpdated() -> Date? {
+    public func dateLastUpdated() -> Date? {
         if self.lastUpdated != nil {
             return Date(timeIntervalSince1970: self.lastUpdated!)
         } else {
             return nil
         }
     }
-    func dateCreatedAt() -> Date? {
+    public func dateCreatedAt() -> Date? {
         if self.createdAt != nil {
             return Date(timeIntervalSince1970: self.createdAt!)
         } else {
@@ -73,7 +73,7 @@ public class OptifireModel: NSObject {
     }
     
     //MARK: ACTIONS
-    func save(success: OptifireSuccess?, failure: OptifireFailure?) {
+    public func save(success: OptifireSuccess?, failure: OptifireFailure?) {
         let collection = Optifire.shared.ref.child(self.collection())
         
         let key: String!
@@ -106,7 +106,7 @@ public class OptifireModel: NSObject {
             }
         })
     }
-    func load(success: OptifireSuccess?, failure: OptifireFailure?) {
+    public func load(success: OptifireSuccess?, failure: OptifireFailure?) {
         Optifire.shared.ref.child(collection()).child(self.uid!).observeSingleEvent(of: .value, with: { (snapshot) in
             let firebaseContent = snapshot.value as? [String : AnyObject] ?? [:]
             self._firebaseContent = firebaseContent
