@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Optifire_Example' do
+  pod 'Optifire', :path => '../'
+
+  target 'Optifire_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

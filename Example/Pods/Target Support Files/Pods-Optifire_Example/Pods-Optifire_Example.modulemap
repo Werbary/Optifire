@@ -1,0 +1,6 @@
+framework module Pods_Optifire_Example {
+  umbrella header "Pods-Optifire_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

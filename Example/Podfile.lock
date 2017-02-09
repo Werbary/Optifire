@@ -1,0 +1,16 @@
+PODS:
+  - Optifire (0.1.0)
+
+DEPENDENCIES:
+  - Optifire (from `../`)
+
+EXTERNAL SOURCES:
+  Optifire:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Optifire: 905d93123a6ad10b16a2447e4e4f7602163a290f
+
+PODFILE CHECKSUM: e4da3022410e28263ffbfcc0d79ec7adfb08fcbf
+
+COCOAPODS: 1.2.0

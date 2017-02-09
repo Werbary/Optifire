@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B5AC6EE793938638337EC588C03CC2 /* Pods-Optifire_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB351655E3593373512235276724E76B /* Pods-Optifire_Tests-dummy.m */; };
+		268F6620B56DF4EFF0EDA8115B1D964C /* Pods-Optifire_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CD75B1E4255AB64EB5F0C6BFAD178 /* Pods-Optifire_Example-dummy.m */; };
+		4D013E3E9723F888DD63C2CB5A9762E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7896E7196460F91D40AA7267BD33A0D3 /* Pods-Optifire_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38FF29B67CB399BBE3AE99EDBF11C2A /* Pods-Optifire_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3C2FB7785993EDA1C01CF10D9E0065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8D9FCD5469A1EC5B913AE77B82FF6D7E /* Optifire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41A5E125A991D10218D89B49D58B395 /* Optifire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91ACBF25AF3A1A8D8C790B2AF36F6931 /* Optifire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2961844A138942CAF5C6DA65825CE /* Optifire-dummy.m */; };
+		ABEC1E8B5EDCB1FFD29B787413EA4905 /* Pods-Optifire_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D52AC6E30755B910C9606222017C27EA /* Pods-Optifire_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8305FABF61EA4B1C093C6B048EF6E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C99FD1B8B204AB4372B8768BBAB14553 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16193534CF072499997C6FD4E9942AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A295C4BA86891FCC64E71395E82E202;
+			remoteInfo = Optifire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03834314B091A0401FF336D35742FE68 /* Pods-Optifire_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		190A523AD80F9C8C7D9C5D19CD48CB86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAEE398D73B0DFB458E512433325D6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B64A32E9AE7136FF96117A05C811F5 /* Pods-Optifire_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		32A34F9E01B02E99A3F1909D122F4098 /* Pods-Optifire_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Optifire_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		37E7E3CA61A97157CD7D4BF0BE3693EE /* Optifire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Optifire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47224286BCB3FD57DC435B005CE32DE1 /* Pods-Optifire_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Example-resources.sh"; sourceTree = "<group>"; };
+		4CE2D0A5BAB967C4B83C28385F7AF12D /* Pods-Optifire_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D008F3AE36CF86250F0D11E25C5CD1A /* Pods-Optifire_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Example-frameworks.sh"; sourceTree = "<group>"; };
+		600F62EB28E2E9DDF5CC73AA75838D36 /* Optifire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Optifire.modulemap; sourceTree = "<group>"; };
+		791549448734F46E427058B48000597F /* Pods-Optifire_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Optifire_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81394475215BF4F4BBF90E04405A9B19 /* Pods-Optifire_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Optifire_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		923BD578A1519FA3FB90B7A0DBA8205B /* Pods_Optifire_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optifire_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B3D89A82CF1E1A00383A949973D8C3 /* Optifire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Optifire-prefix.pch"; sourceTree = "<group>"; };
+		A4C2961844A138942CAF5C6DA65825CE /* Optifire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Optifire-dummy.m"; sourceTree = "<group>"; };
+		A7A148289A6C0303A17EBC58C7D92EBF /* Pods_Optifire_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optifire_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86AC785208475FAE4D162F0C04AA1F3 /* Pods-Optifire_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB7CD75B1E4255AB64EB5F0C6BFAD178 /* Pods-Optifire_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Optifire_Example-dummy.m"; sourceTree = "<group>"; };
+		B38FF29B67CB399BBE3AE99EDBF11C2A /* Pods-Optifire_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Optifire_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB351655E3593373512235276724E76B /* Pods-Optifire_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Optifire_Tests-dummy.m"; sourceTree = "<group>"; };
+		C132F72A1DB8E1882B54E8D944981B85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D52AC6E30755B910C9606222017C27EA /* Pods-Optifire_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Optifire_Example-umbrella.h"; sourceTree = "<group>"; };
+		EFA57CFD950D8C11574EDBC7CC0C7903 /* Pods-Optifire_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Optifire_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Optifire.xcconfig; sourceTree = "<group>"; };
+		F301772034C3ED23DD3E1C5F4573B108 /* Pods-Optifire_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Optifire_Tests.modulemap"; sourceTree = "<group>"; };
+		F41A5E125A991D10218D89B49D58B395 /* Optifire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Optifire-umbrella.h"; sourceTree = "<group>"; };
+		F799DD7129E0D769E16E6A77C130DDE7 /* Pods-Optifire_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Optifire_Example.modulemap"; sourceTree = "<group>"; };
+		FD14080BC4382C6C7C1E702A922D36A9 /* Pods-Optifire_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Optifire_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEFA6F56C99F6871F4561E05363319E3 /* Pods-Optifire_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Optifire_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE889DED77559785DD3DE831C499061C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8305FABF61EA4B1C093C6B048EF6E7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA493E95101E23CF440AE587406AD02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D013E3E9723F888DD63C2CB5A9762E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1B6CAB2791F42680A76C36CBF73B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3C2FB7785993EDA1C01CF10D9E0065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051475F6E62365F2739C4E27702BAA4D /* Optifire */ = {
+			isa = PBXGroup;
+			children = (
+				47A225EDD0CB0EAB5A8F7FFB2EAE4BEF /* Optifire */,
+				5B711F0C03216189F838173938E97BD5 /* Support Files */,
+			);
+			name = Optifire;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33016564A00DD2934CCFDFD767098939 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				077EC3BF000BBA8835543641808B745F /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DA00D115A40D91EE5B5CADB6FB428B8 /* Pods-Optifire_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEE398D73B0DFB458E512433325D6A /* Info.plist */,
+				F799DD7129E0D769E16E6A77C130DDE7 /* Pods-Optifire_Example.modulemap */,
+				FD14080BC4382C6C7C1E702A922D36A9 /* Pods-Optifire_Example-acknowledgements.markdown */,
+				32A34F9E01B02E99A3F1909D122F4098 /* Pods-Optifire_Example-acknowledgements.plist */,
+				AB7CD75B1E4255AB64EB5F0C6BFAD178 /* Pods-Optifire_Example-dummy.m */,
+				5D008F3AE36CF86250F0D11E25C5CD1A /* Pods-Optifire_Example-frameworks.sh */,
+				47224286BCB3FD57DC435B005CE32DE1 /* Pods-Optifire_Example-resources.sh */,
+				D52AC6E30755B910C9606222017C27EA /* Pods-Optifire_Example-umbrella.h */,
+				EFA57CFD950D8C11574EDBC7CC0C7903 /* Pods-Optifire_Example.debug.xcconfig */,
+				4CE2D0A5BAB967C4B83C28385F7AF12D /* Pods-Optifire_Example.release.xcconfig */,
+			);
+			name = "Pods-Optifire_Example";
+			path = "Target Support Files/Pods-Optifire_Example";
+			sourceTree = "<group>";
+		};
+		47A225EDD0CB0EAB5A8F7FFB2EAE4BEF /* Optifire */ = {
+			isa = PBXGroup;
+			children = (
+				33016564A00DD2934CCFDFD767098939 /* Classes */,
+			);
+			path = Optifire;
+			sourceTree = "<group>";
+		};
+		5B711F0C03216189F838173938E97BD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C132F72A1DB8E1882B54E8D944981B85 /* Info.plist */,
+				600F62EB28E2E9DDF5CC73AA75838D36 /* Optifire.modulemap */,
+				F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */,
+				A4C2961844A138942CAF5C6DA65825CE /* Optifire-dummy.m */,
+				A0B3D89A82CF1E1A00383A949973D8C3 /* Optifire-prefix.pch */,
+				F41A5E125A991D10218D89B49D58B395 /* Optifire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Optifire";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ADF45312BE46EE25211133AD6C322832 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BCC128073F380782B95478E1E8DA11D1 /* Products */,
+				C3B5A7C05CF04CE36583E37E46BFECCC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A7B35C447D9799302E41781594482B /* Pods-Optifire_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				190A523AD80F9C8C7D9C5D19CD48CB86 /* Info.plist */,
+				F301772034C3ED23DD3E1C5F4573B108 /* Pods-Optifire_Tests.modulemap */,
+				791549448734F46E427058B48000597F /* Pods-Optifire_Tests-acknowledgements.markdown */,
+				81394475215BF4F4BBF90E04405A9B19 /* Pods-Optifire_Tests-acknowledgements.plist */,
+				BB351655E3593373512235276724E76B /* Pods-Optifire_Tests-dummy.m */,
+				23B64A32E9AE7136FF96117A05C811F5 /* Pods-Optifire_Tests-frameworks.sh */,
+				FEFA6F56C99F6871F4561E05363319E3 /* Pods-Optifire_Tests-resources.sh */,
+				B38FF29B67CB399BBE3AE99EDBF11C2A /* Pods-Optifire_Tests-umbrella.h */,
+				03834314B091A0401FF336D35742FE68 /* Pods-Optifire_Tests.debug.xcconfig */,
+				A86AC785208475FAE4D162F0C04AA1F3 /* Pods-Optifire_Tests.release.xcconfig */,
+			);
+			name = "Pods-Optifire_Tests";
+			path = "Target Support Files/Pods-Optifire_Tests";
+			sourceTree = "<group>";
+		};
+		ADF45312BE46EE25211133AD6C322832 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051475F6E62365F2739C4E27702BAA4D /* Optifire */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC128073F380782B95478E1E8DA11D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E7E3CA61A97157CD7D4BF0BE3693EE /* Optifire.framework */,
+				A7A148289A6C0303A17EBC58C7D92EBF /* Pods_Optifire_Example.framework */,
+				923BD578A1519FA3FB90B7A0DBA8205B /* Pods_Optifire_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B5A7C05CF04CE36583E37E46BFECCC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA00D115A40D91EE5B5CADB6FB428B8 /* Pods-Optifire_Example */,
+				A6A7B35C447D9799302E41781594482B /* Pods-Optifire_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09DAAE04D8AA7AD769D5998F96E73F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC1E8B5EDCB1FFD29B787413EA4905 /* Pods-Optifire_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB921EE63E4C0F75E2084923F9850478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7896E7196460F91D40AA7267BD33A0D3 /* Pods-Optifire_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AF99579137F52ADDD06CC33225AA30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9FCD5469A1EC5B913AE77B82FF6D7E /* Optifire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A295C4BA86891FCC64E71395E82E202 /* Optifire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A300A2C86209C76CB8E025D8D616B36 /* Build configuration list for PBXNativeTarget "Optifire" */;
+			buildPhases = (
+				2886D74AA614D28348D45EE704100D08 /* Sources */,
+				FE1B6CAB2791F42680A76C36CBF73B27 /* Frameworks */,
+				F9AF99579137F52ADDD06CC33225AA30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Optifire;
+			productName = Optifire;
+			productReference = 37E7E3CA61A97157CD7D4BF0BE3693EE /* Optifire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80212669526AC7AAAF3DA24C675307D4 /* Pods-Optifire_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1C757105ED8A2EAF647CD5E4CB18D7 /* Build configuration list for PBXNativeTarget "Pods-Optifire_Example" */;
+			buildPhases = (
+				0B14F41098CDD85AE0DE4CEDF419A8C9 /* Sources */,
+				EA493E95101E23CF440AE587406AD02B /* Frameworks */,
+				09DAAE04D8AA7AD769D5998F96E73F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FAB073CDA98CF9D4742DEF7C18DC814 /* PBXTargetDependency */,
+			);
+			name = "Pods-Optifire_Example";
+			productName = "Pods-Optifire_Example";
+			productReference = A7A148289A6C0303A17EBC58C7D92EBF /* Pods_Optifire_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB16C42A82154C2E6F06A10037E3EA92 /* Pods-Optifire_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C959F35E5E060176C27350241136B1 /* Build configuration list for PBXNativeTarget "Pods-Optifire_Tests" */;
+			buildPhases = (
+				16629F06A7F407CCD108C99F51437D93 /* Sources */,
+				CE889DED77559785DD3DE831C499061C /* Frameworks */,
+				AB921EE63E4C0F75E2084923F9850478 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Optifire_Tests";
+			productName = "Pods-Optifire_Tests";
+			productReference = 923BD578A1519FA3FB90B7A0DBA8205B /* Pods_Optifire_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3A295C4BA86891FCC64E71395E82E202 = {
+						LastSwiftMigration = 0820;
+					};
+					80212669526AC7AAAF3DA24C675307D4 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BCC128073F380782B95478E1E8DA11D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A295C4BA86891FCC64E71395E82E202 /* Optifire */,
+				80212669526AC7AAAF3DA24C675307D4 /* Pods-Optifire_Example */,
+				CB16C42A82154C2E6F06A10037E3EA92 /* Pods-Optifire_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B14F41098CDD85AE0DE4CEDF419A8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F6620B56DF4EFF0EDA8115B1D964C /* Pods-Optifire_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16629F06A7F407CCD108C99F51437D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B5AC6EE793938638337EC588C03CC2 /* Pods-Optifire_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886D74AA614D28348D45EE704100D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ACBF25AF3A1A8D8C790B2AF36F6931 /* Optifire-dummy.m in Sources */,
+				C99FD1B8B204AB4372B8768BBAB14553 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FAB073CDA98CF9D4742DEF7C18DC814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Optifire;
+			target = 3A295C4BA86891FCC64E71395E82E202 /* Optifire */;
+			targetProxy = 16193534CF072499997C6FD4E9942AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E1B81C8AA5DC189CD704F0F7DAC9888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Optifire/Optifire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Optifire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Optifire/Optifire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Optifire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BABC70120F70898B9442B20CEA63700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE2D0A5BAB967C4B83C28385F7AF12D /* Pods-Optifire_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Optifire_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Optifire_Example/Pods-Optifire_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Optifire_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40BDC1B7BFC7E720D66D1AA716CA3DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03834314B091A0401FF336D35742FE68 /* Pods-Optifire_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Optifire_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Optifire_Tests/Pods-Optifire_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Optifire_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40C46CFBDB2225D3A5B60749B12E99E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29087AF59B36E0BDEE6472393033E4E /* Optifire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Optifire/Optifire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Optifire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Optifire/Optifire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Optifire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8126D0DACDCA824BBB3E387C7DB802BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86AC785208475FAE4D162F0C04AA1F3 /* Pods-Optifire_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Optifire_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Optifire_Tests/Pods-Optifire_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Optifire_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEEC0AE72B5688D25899251FE7960F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA57CFD950D8C11574EDBC7CC0C7903 /* Pods-Optifire_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Optifire_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Optifire_Example/Pods-Optifire_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Optifire_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A300A2C86209C76CB8E025D8D616B36 /* Build configuration list for PBXNativeTarget "Optifire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C46CFBDB2225D3A5B60749B12E99E1 /* Debug */,
+				0E1B81C8AA5DC189CD704F0F7DAC9888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1C757105ED8A2EAF647CD5E4CB18D7 /* Build configuration list for PBXNativeTarget "Pods-Optifire_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEC0AE72B5688D25899251FE7960F1A /* Debug */,
+				3BABC70120F70898B9442B20CEA63700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C959F35E5E060176C27350241136B1 /* Build configuration list for PBXNativeTarget "Pods-Optifire_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDC1B7BFC7E720D66D1AA716CA3DA6 /* Debug */,
+				8126D0DACDCA824BBB3E387C7DB802BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

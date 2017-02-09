@@ -1,0 +1,6 @@
+framework module Optifire {
+  umbrella header "Optifire-umbrella.h"
+
+  export *
+  module * { export * }
+}

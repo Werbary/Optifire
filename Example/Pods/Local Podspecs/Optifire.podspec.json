@@ -1,0 +1,22 @@
+{
+  "name": "Optifire",
+  "version": "0.1.0",
+  "summary": "A short description of Optifire.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/itruf/Optifire",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "itruf": "itruf@werbary.ru"
+  },
+  "source": {
+    "git": "https://github.com/itruf/Optifire.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Optifire/Classes/**/*"
+}
