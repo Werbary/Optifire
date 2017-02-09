@@ -36,10 +36,5 @@ TODO: Add long description of the pod here.
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseDatabase/Frameworks"'
   }
 
-  "libraries": [
-    "c++",
-    "icucore"
-  ]
-
-  s.frameworks = ['FirebaseDatabase']
+  s.dependency = ['FirebaseDatabase']
 end
