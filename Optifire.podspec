@@ -33,8 +33,8 @@ TODO: Add long description of the pod here.
   s.source_files = 'Optifire/**/*'
 
   s.xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseDatabase/Frameworks"'
+      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseDatabase/Frameworks" "$(PODS_ROOT)/FirebaseCore/Frameworks"'
   }
-  
-  s.frameworks = ['FirebaseDatabase']
+
+  s.frameworks = ['FirebaseCore','FirebaseDatabase']
 end
